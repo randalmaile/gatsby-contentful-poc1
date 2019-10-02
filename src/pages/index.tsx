@@ -23,7 +23,7 @@ class RootIndex extends React.Component<Props, {}> {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
-            <h1>Changed again</h1>
+            <h1>Changed again T the F</h1>
             <h2 className="section-headline">Recent articles</h2>
             <ul className="article-list">
               {posts.map(({ node }) => {
