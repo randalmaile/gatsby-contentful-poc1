@@ -24,6 +24,7 @@ class RootIndex extends React.Component<Props, {}> {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
+            <h1>New text</h1>
             <h2 className="section-headline">Recent articles</h2>
             <GoogleMap />
             <ul className="article-list">
