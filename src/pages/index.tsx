@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
+import GoogleMap from '../components/google-maps'
 
 
 type Props = {
@@ -23,8 +24,8 @@ class RootIndex extends React.Component<Props, {}> {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
-            <h1>Changed again T the F</h1>
             <h2 className="section-headline">Recent articles</h2>
+            <GoogleMap />
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
